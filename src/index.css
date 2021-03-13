@@ -1,3 +1,13 @@
+
+*{
+  --primary-bg-color: #f57c00;
+  --font-light-op: rgba(251,251,251,0.90);
+  --font-light: rgba(251,251,251);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +15,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
 }
 
 code {
