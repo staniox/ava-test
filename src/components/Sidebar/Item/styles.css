@@ -1,0 +1,33 @@
+.sidebar-item{
+    height: 4em;
+    padding-right: 30%;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+}
+.sidebar-item:focus{
+    color: var(--primary-bg-color);
+}
+.sidebar-item:hover{
+    opacity: 0.5;
+}
+.sidebar-item img{
+    width: 20px;
+}
+
+.check-icon{
+    fill: var(--font-dark-2);
+    width: 20px;
+    height: 20px;
+}
+.icon-container{
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar-item span{
+    color: var(--font-dark-1);
+}
